@@ -7,14 +7,192 @@
     <title></title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preload" href="img/logo/logo.jpg" as="image">
+    <link rel="preload" href="img/hero/hero-bg.jpg" as="image">
+    <link rel="icon" href="img/logo/logo.jpg">
     <script src="js/main.js" defer></script>
 </head>
 
 <body class="page-body">
-    <header class="header">
-    </header>
     <main class="page">
-        
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="inner-header__container">
+                    <div class="logo">
+                        <a href="/" class="link-reset">
+                            <img src="./img/logo/logo.jpg" width="285" height="135" title="Логотип" alt="Логотип">
+                        </a>
+                    </div>
+                    <h4 class="title header__title" style="display: none">
+                        <a href="#!" class="link-reset header__link">
+                            Заказать СЗД
+                        </a>
+                    </h4>
+                </div>
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="title title--96">
+                            ЗАЖГИТЕ СВОЁ СОЛНЦЕ
+                        </h1>
+                        <p class="hero__par">
+                            Получите свой индивидуальный список солнцезажегающих действий от&nbsp;астролога Евгении
+                            Чумаковой, который поможет вам начать новую счастливую жизнь
+                        </p>
+                    </div>
+                    <button class="btn btn-reset btn--hero">
+                        <a href="#!" class="link-reset btn--hero__link">
+                            Зажечь свое солнце
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="sun">
+            <div class="container sun__container">
+                <div class="sun__text">
+                    <h2 class="title title--72">
+                        Что такое солнце?
+                    </h2>
+                    <div class="sun__pars">
+                        <p class="sun__par">
+                            Солнце&nbsp;&mdash; это наша энергия, сила, воля и&nbsp;главная &laquo;хотелка&raquo;.
+                        </p>
+                        <p class="sun__par">
+                            Солнце&nbsp;&mdash; это ваша энергетическая машина, от&nbsp;которой приходят силы, деньги,
+                            новые возможности, все что&nbsp;необходимо.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feelings">
+            <div class="container feelings__container">
+                <h2 class="title title--72">
+                    Вам знакомы эти чувства?
+                </h2>
+                <ul class="list-reset feelings__list">
+                    <li class="feelings__item">
+                        <article class="feelings__card">
+                            <div class="fc__text">
+                                <h3 class="title title--36">
+                                    Отсутствие желаний
+                                </h3>
+                                <p class="fc-text__par">
+                                    Ничего не&nbsp;хотите не&nbsp;от&nbsp;изобилия и&nbsp;удовлетворенности,
+                                    а&nbsp;от&nbsp;потери интереса к&nbsp;жизни
+                                </p>
+                            </div>
+                            <div class="fc__image">
+                                <img src="./img/feelings/feelings1.png" width="436" height="436" aria-hidden="true"
+                                    alt="">
+                            </div>
+                        </article>
+                    </li>
+                    <li class="feelings__item feelings__item--reverse">
+                        <article class="feelings__card">
+                            <div class="fc__text">
+                                <h3 class="title title--36">
+                                    Сравнение с&nbsp;другими
+                                </h3>
+                                <p class="fc-text__par">
+                                    Вы&nbsp;видите вокруг счастливых, богатых, успешных людей и&nbsp;чувчтвуете, что вам
+                                    этого никогда не&nbsp;достичь
+                                </p>
+                            </div>
+                            <div class="fc__image">
+                                <img src="./img/feelings/feelings2.png" width="459" height="459" aria-hidden="true"
+                                    alt="">
+                            </div>
+                        </article>
+                    </li>
+                    <li class="feelings__item">
+                        <article class="feelings__card">
+                            <div class="fc__text">
+                                <h3 class="title title--36">
+                                    Неуверенность в себе
+                                </h3>
+                                <p class="fc-text__par">
+                                    Замучал внутрненний диалог о&nbsp;собственной никчемности. Поставили цели
+                                    и&nbsp;ждете, когда сами достигнутся
+                                </p>
+                            </div>
+                            <div class="fc__image">
+                                <img src="./img/feelings/feelings3.png" width="459" height="459" aria-hidden="true"
+                                    alt="">
+                            </div>
+                        </article>
+                    </li>
+                    <li class="feelings__item feelings__item--reverse">
+                        <article class="feelings__card">
+                            <div class="fc__text">
+                                <h3 class="title title--36">
+                                    Потерянность
+                                </h3>
+                                <p class="fc-text__par">
+                                    Вы&nbsp;не&nbsp;знаете, куда идти, что делать и&nbsp;зачем вам все это
+                                </p>
+                            </div>
+                            <div class="fc__image">
+                                <img src="./img/feelings/feelings4.png" width="459" height="459" aria-hidden="true"
+                                    alt="">
+                            </div>
+                        </article>
+                    </li>
+                    <li class="feelings__item">
+                        <article class="feelings__card">
+                            <div class="fc__text">
+                                <h3 class="title title--36">
+                                    Страх
+                                </h3>
+                                <p class="fc-text__par">
+                                    Вы&nbsp;боитесь что-либо делать. Боитесь начать новое&nbsp;и, при этом, боитесь, что
+                                    так, как сейчас будет всегда
+                                </p>
+                            </div>
+                            <div class="fc__image">
+                                <img src="./img/feelings/feelings5.png" width="566" height="566" aria-hidden="true"
+                                    alt="">
+                            </div>
+                        </article>
+                    </li>
+                    <li class="feelings__item feelings__item--reverse">
+                        <article class="feelings__card">
+                            <div class="fc__text">
+                                <h3 class="title title--36">
+                                    Лень
+                                </h3>
+                                <p class="fc-text__par">
+                                    Вы&nbsp;лежите на&nbsp;диване, мечтаете о&nbsp;новой жизни,
+                                    но&nbsp;вы&nbsp;не&nbsp;привыкли что-то для этого делать и&nbsp;продолжаете тупить
+                                    в&nbsp;Instagram
+                                </p>
+                            </div>
+                            <div class="fc__image">
+                                <img src="./img/feelings/feelings4.png" width="497" height="497" aria-hidden="true"
+                                    alt="">
+                            </div>
+                        </article>
+                    </li>
+                    <li class="feelings__item">
+                        <article class="feelings__card">
+                            <div class="fc__text">
+                                <h3 class="title title--36">    
+                                    Обреченность
+                                </h3>
+                                <p class="fc-text__par">
+                                    Уныние, зависть, депрессия. Все достали. Все бесит. Хочется спрятаться и&nbsp;тихо
+                                    умереть
+                                </p>
+                            </div>
+                            <div class="fc__image">
+                                <img src="./img/feelings/feelings7.png" width="548" height="548" aria-hidden="true"
+                                    alt="">
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">

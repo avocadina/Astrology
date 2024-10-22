@@ -9,3 +9,12 @@
 @import url("./blocks/logo.css");
 @import url("./blocks/span.css");
 @import url("./blocks/button.css");
+
+/* hero */
+@import url("./blocks/hero.css");
+
+/* sun */
+@import url("./blocks/sun.css");
+
+/* feelings */
+@import url("./blocks/feelings.css");

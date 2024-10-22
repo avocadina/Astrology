@@ -1,0 +1,61 @@
+.feelings {
+    background: var(--fon);
+    padding: 113px 0 170px;
+}
+
+.feelings__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 142px;
+}
+
+.feelings__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; 
+    gap: 133px;
+}
+
+.feelings__item {
+    width: 100%;
+}
+
+.feelings__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 44px;
+
+    width: 100%;
+}
+
+.feelings__item--reverse .feelings__card {
+    flex-direction: row-reverse;
+}
+
+.fc__text {
+    max-width: 560px;
+}
+
+.fc-text__par {
+    font-weight: 200;
+    font-size: 35px;
+    color: #fff;
+}
+
+.fc__image img {
+    display: block;
+    transition: transform 0.3s ease-out
+}
+
+@media (any-hover: hover) {
+    .feelings__item:hover .fc__image img {
+        transform: scale(1.05) rotate(5deg); 
+    }
+
+    .feelings__item--reverse:hover .fc__image img {
+        transform: scale(1.05) rotate(-5deg); 
+    }
+}

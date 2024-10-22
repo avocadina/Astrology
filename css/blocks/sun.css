@@ -1,0 +1,29 @@
+.sun {
+    background: url('../../img/sun/sun1.png') no-repeat center / cover,
+    var(--fon);
+}
+
+.sun__container {
+    padding: 192px 0 131px;
+}
+
+.sun__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+}
+
+.sun__pars {
+    max-width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.sun__par {
+    font-weight: 100;
+    font-size: 36px;
+    color: #fff;
+}

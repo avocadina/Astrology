@@ -1,0 +1,28 @@
+.btn {
+    display: inline-flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+
+    transition: var(--btn-trs);
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn--hero {
+    padding: 24px 20px;
+    border-radius: 33px;
+
+    box-shadow: 0 2px 0 0 #d4661c, inset 0 4px 0 -2px rgba(236, 214, 87, 0.6);
+    background: linear-gradient(132deg, #d15a1a 0%, #eab425 47.4%, #ecd85a 100%);
+}
+
+.btn--hero__link {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f0f0f0;
+}

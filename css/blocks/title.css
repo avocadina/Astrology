@@ -1,0 +1,23 @@
+.title--24 {
+    font-weight: 200;
+    font-size: 24px;
+    color: #fff;
+}
+
+.title--36 {
+    font-weight: 300;
+    font-size: 36px;
+    color: #fff;
+}
+
+.title--72 {
+    font-weight: 300;
+    font-size: 72px;
+    color: var(--zagolovok);
+}
+
+.title--96 {
+    font-weight: 100;
+    font-size: 96px;
+    color: #fff;
+}
