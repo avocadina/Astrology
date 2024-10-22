@@ -1,0 +1,12 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Montserrat", sans-serif;
+    --third-family: "Open Sans", sans-serif;
+  
+    --zagolovok: #f3d7b3;
+	--fon: #111;
+
+    --container-width: 1160px;
+    --container-offset: 15px;
+
+}
